@@ -45,7 +45,7 @@
                 return UbigeoRestangular.all(url+'/'+this.ubigeoDepartamento+'/provincias').getList();
             },
             $getDistritos: function(codigoDepartamento, codigoProvincia){
-                return UbigeoRestangular.all('departamentos/'+codigoDepartamento+'/'+url+'/'+codigoProvincia+'/distritos').getList();
+                return UbigeoRestangular.all('departamentos/'+codigoDepartamento+'/provincias/'+codigoProvincia+'/distritos').getList();
             }
 
         };
